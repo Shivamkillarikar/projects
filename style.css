@@ -1,0 +1,662 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: violet;
+    height: 50px;
+    width: 100%;
+    box-shadow: 0 0 10px;
+
+}
+.name-logo{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a{
+   margin-left: 100px;
+   color: white;
+}
+
+.icons{
+    margin-left: 110px;
+    margin-top: 3%;
+}
+
+.fa-regular{
+    cursor: pointer;
+}
+.fa-regular:hover{
+    color: wheat;
+}
+
+.fa-solid {
+    cursor: pointer;
+    margin-left: 90px;
+}
+.fa-solid:hover{
+    color: wheat;
+}
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-shoes{
+    margin-right: 1%;
+    position: relative;
+    width: 500px;
+    top: 70px;
+    right: 60px;
+}
+
+.collections{
+    margin-top: 100px;
+}
+
+section{
+    width: 100%;
+    height: 120vh;
+    background-image: url(bg1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+ .home-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fa-instagram{
+    margin-left:2px;
+}
+
+.fa-twitter{
+    margin-left: 2px;
+}
+
+.fa-linkedin{
+    margin-left:2px;
+}
+
+.shop{
+    font-size:20px;
+    width: 10px;
+}
+
+
+.pr{
+    text-align: center;
+    color: #FF00FF;
+    font-size: 50px;
+    font-family: "DM Serif Text", serif; 
+}
+
+.upper{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.shoe-1{
+    background-color: whitesmoke;
+    height: 300px;
+    width: 300px;
+    margin-top: 4%;
+    margin-left: 10px;
+    border: 2px solid violet;
+    cursor: pointer;
+}
+.shoe1{
+    margin-left: 25%;
+    margin-top: 2%;
+    height: 150px;
+    width: 150px;
+}
+
+.shoe-1:hover{
+    box-shadow: 0 0 10px;
+}
+
+.heading{
+    text-align: center;
+    margin-right: 3%;
+    margin-top: 5%;
+}
+
+.star{
+    margin-top: 5%;
+}
+
+.atc{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #9370DB;
+    padding: 10px;
+    margin-top: 5%;
+    color: white;
+    cursor: pointer;
+}
+
+
+.shoe-2{
+    background-color: whitesmoke;
+    height: 300px;
+    width: 300px;
+    margin-top: 4%;
+    margin-left: 2%;
+    border: 2px solid violet;
+    cursor: pointer;
+}
+
+.shoe2{
+    margin-left: 25%;
+    margin-top: 2%;
+    height: 150px;
+    width: 150px;
+}
+
+.shoe-2:hover{
+    box-shadow: 0 0 10px;
+}
+
+.shoe-3{
+    background-color: whitesmoke;
+    height: 300px;
+    width: 300px;
+    margin-top: 4%;
+    margin-left: 2%;
+    border: 2px solid violet;
+    cursor: pointer;
+}
+
+.shoe3{
+    margin-left: 25%;
+    margin-top: 2%;
+    height: 150px;
+    width: 150px;
+}
+
+.shoe-3:hover{
+    box-shadow: 0 0 10px;
+}
+
+
+.shoe-4{
+    background-color: whitesmoke;
+    height: 300px;
+    width: 300px;
+    margin-top: 4%;
+    margin-left: 2%;
+    border: 2px solid violet;
+    cursor: pointer;
+}
+
+.shoe4{
+    margin-left: 25%;
+    margin-top: 2%;
+    height: 150px;
+    width: 150px;
+}
+
+.shoe-4:hover{
+    box-shadow: 0 0 10px;
+}
+.lower{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shoe-5{
+    background-color: whitesmoke;
+    height: 300px;
+    width: 300px;
+    margin-top: 4%;
+    margin-left: 10px;
+    border: 2px solid violet;
+    cursor: pointer;
+}
+
+.shoe5{
+    margin-left: 25%;
+    margin-top: 2%;
+    height: 150px;
+    width: 150px;
+}
+
+.shoe-5:hover{
+    box-shadow: 0 0 10px;
+}
+
+.shoe-6{
+    background-color: whitesmoke;
+    height: 300px;
+    width: 300px;
+    margin-top: 4%;
+    margin-left: 2%;
+    border: 2px solid violet;
+    cursor: pointer;
+}
+
+.shoe6{
+    margin-left: 25%;
+    margin-top: 2%;
+    height: 150px;
+    width: 150px;
+}
+
+.shoe-6:hover{
+    box-shadow: 0 0 10px;
+}
+
+
+.shoe-7{
+    background-color: whitesmoke;
+    height: 300px;
+    width: 300px;
+    margin-top: 4%;
+    margin-left: 2%;
+    border: 2px solid violet;
+    cursor: pointer;
+}
+
+.shoe7{
+    margin-left: 25%;
+    margin-top: 2%;
+    height: 150px;
+    width: 150px;
+}
+
+.shoe-7:hover{
+    box-shadow: 0 0 10px;
+}
+
+.shoe-8{
+    background-color: whitesmoke;
+    height: 300px;
+    width: 300px;
+    margin-top: 4%;
+    margin-left: 2%;
+    border: 2px solid violet;
+    cursor: pointer;
+}
+
+.shoe8{
+    margin-left: 25%;
+    margin-top: 2%;
+    height: 150px;
+    width: 150px;
+}
+
+.shoe-8:hover{
+    box-shadow: 0 0 10px;
+}
+
+.nikes{
+    display: flex;
+
+}
+
+#about{
+    margin-top: 10%;
+    display: flex;
+    height: 400px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.nikes-upper{
+    background-color: wheat;
+}
+
+.nikes-lower{
+    background-color: wheat;
+}
+
+.nike1{
+    /* margin-top: 5%; */
+    height: 200px;
+    width: 200px;
+    background-color: #B65FCF;
+    cursor: pointer;
+}
+
+.nike-1{
+    margin-top:40px;
+    height: 150px;
+    width: 150px;
+}
+
+.nike1:hover{
+    box-shadow: 0 0 5px;
+}
+
+.nike2{
+    margin-top: 0%;
+    height: 200px;
+    width: 200px;
+    background-color: #B65FCF;
+    cursor: pointer;
+}
+
+.nike-2{
+    margin-top:40px;
+    height: 150px;
+    width: 150px;
+}
+
+.nike2:hover{
+    box-shadow: 0 0 5PX;
+}
+
+.nike3{
+    margin-top: 0%;
+    height: 200px;
+    width: 200px;
+    background-color: #B65FCF;
+    cursor: pointer;
+}
+
+.nike-3{
+    margin-top:40px;
+    height: 150px;
+    width: 150px;
+}
+
+
+.nike3:hover{
+    box-shadow: 0 0 5px;
+}
+
+.nike4{
+    margin-top: 0%;
+    height: 200px;
+    width: 200px;
+    background-color: #B65FCF;
+    cursor: pointer;
+}
+
+.nike-4{
+    margin-top:40px;
+    height: 150px;
+    width: 150px;
+}
+
+
+.nike4:hover{
+    box-shadow: 0 0 5px;
+}
+
+.a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nike-image{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin-top: 0%;
+    margin-left: 0%;
+    background-color: white;
+}
+
+.info{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 7%;
+    margin-bottom: 7.3%;
+    background-color: rgba(239, 239, 239, 0.696);
+    height: 400px;
+    border-radius: 5px;
+    border: 2px solid violet;
+}
+.i{
+    color: rgb(220, 45, 220);
+}
+
+.about{
+    background-color: rgb(225, 134, 198);
+    text-align: center;
+    margin-top: 12%;
+    font-size: 50px;
+    color: white;
+    font-family: "EB Garamond", serif;
+}
+
+#reviews{
+    margin-top: 7%;
+    height: 600px;
+    width: 100%;
+    background-color: white;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    margin-top: 3%;
+}
+
+.person1{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 3px solid wheat;
+}
+
+.person1:hover{
+    box-shadow: 0 0 8px;
+    
+}
+
+p{
+    text-align: center;
+    color: black;
+}
+
+.man1{ 
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+}
+
+.b{
+    color: black;
+    margin-left: 5px;
+    margin-top: 20px;
+
+}
+
+
+.fa-solid{
+    margin-bottom: 50px;
+    color: orange;
+    margin-left: 10px;
+}
+
+.social{
+    margin-top: 10px;
+    width: 92px;
+    height: 30px;
+}
+.s{
+    margin-right: 10px;
+    margin-bottom: 30px;
+    height: 20px;
+}
+
+.image-social{
+    display: flex;
+    align-items: center;
+}
+
+
+.person2{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 3px solid wheat;
+}
+
+.person2:hover{
+    box-shadow: 0 0 8px;
+}
+.man2{ 
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+}
+
+
+.person3{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 3px solid wheat;
+}
+
+.person3:hover{
+    box-shadow: 0 0 8px;
+}
+.man3{ 
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+}
+
+
+.lower{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.person4{
+    margin-top: 1%;
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 3px solid wheat;
+}
+
+.person4:hover{
+    box-shadow: 0 0 8px;
+}
+.girl1{ 
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+}
+
+.person5{
+    margin-top: 1%;
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 3px solid wheat;
+}
+
+.person5:hover{
+    box-shadow: 0 0 8px;
+}
+.girl2{ 
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+}
+/* 
+
+
+.person4{
+    margin-top: 1%;
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.person4:hover{
+    box-shadow: 0 0 8px;
+}
+.girl1{ 
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+} */
+
+.person6{
+    margin-top: 1%;
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 3px solid wheat;
+}
+
+.person6:hover{
+    box-shadow: 0 0 8px;
+}
+.girl3{ 
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+}
+
+.r{
+    text-align:left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    background-color:rgb(246, 154, 208);
+    font-size: 50px;
+}
+
+span{
+    text-align: center;
+    font-size: 70px;
+    background: linear-gradient(to left,#c72092,#6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 500px;
+}
+
+.services_cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+
